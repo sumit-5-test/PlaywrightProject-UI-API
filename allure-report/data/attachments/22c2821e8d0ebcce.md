@@ -1,0 +1,52 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e14]:
+        - img [ref=e17]
+        - heading "Sign in to GitHub" [level=1] [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e24]:
+          - button "Dismiss this message" [active] [ref=e25] [cursor=pointer]:
+            - img [ref=e26]
+          - alert [ref=e28]: Incorrect username or password.
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: Username or email address
+            - textbox "Username or email address" [ref=e33]
+          - generic [ref=e34]:
+            - generic [ref=e35]: Password
+            - textbox "Password" [ref=e36]
+            - link "Forgot password?" [ref=e37] [cursor=pointer]:
+              - /url: /password_reset
+          - button "Sign in" [ref=e39] [cursor=pointer]
+      - paragraph [ref=e42]:
+        - text: New to GitHub?
+        - link "Create an account" [ref=e43] [cursor=pointer]:
+          - /url: /signup?return_to=https%3A%2F%2Fgithub.com%2Flogin&source=login
+  - contentinfo [ref=e44]:
+    - list [ref=e45]:
+      - listitem [ref=e46]:
+        - link "Terms" [ref=e47] [cursor=pointer]:
+          - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+      - listitem [ref=e48]:
+        - link "Privacy" [ref=e49] [cursor=pointer]:
+          - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+      - listitem [ref=e50]:
+        - link "Docs" [ref=e51] [cursor=pointer]:
+          - /url: https://docs.github.com
+      - listitem [ref=e52]:
+        - link "Contact GitHub Support" [ref=e53] [cursor=pointer]:
+          - /url: https://support.github.com
+      - listitem [ref=e54]:
+        - button "Manage cookies" [ref=e56] [cursor=pointer]
+      - listitem [ref=e57]:
+        - button "Do not share my personal information" [ref=e59] [cursor=pointer]
+```

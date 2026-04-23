@@ -1,0 +1,13 @@
+{
+  "validUser": {
+    "useremail": "sumit.tirpude@zensar.com",
+    "password": "your_github_password",
+    "USERNAME_CASE":"SUMIT-5-TEST"
+  },
+  "invalidUser": {
+    "username": "romeo-66",
+    "password": "Romeo@500",
+    "emptyusername":" ",
+    "invalid_credential_text":"Incorrect username or password."
+  }
+}

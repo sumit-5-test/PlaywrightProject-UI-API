@@ -1,0 +1,13 @@
+{
+  "owner": "your-github-username",
+  "repositories": [
+    {
+      "name": "playwright-api-repo-1",
+      "private": false
+    },
+    {
+      "name": "playwright-api-repo-2",
+      "private": true
+    }
+  ]
+}

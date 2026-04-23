@@ -1,0 +1,427 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region:
+    - dialog "sumit-5-test" [ref=e3]:
+      - heading "User navigation" [level=1] [ref=e5]:
+        - generic [ref=e8]:
+          - generic "sumit-5-test" [ref=e10]
+          - generic "sumit tirpude" [ref=e12]
+        - button "Account switcher" [ref=e13] [cursor=pointer]:
+          - img [ref=e14]
+      - list [ref=e18]:
+        - listitem [ref=e19]:
+          - button "Set status" [ref=e20] [cursor=pointer]:
+            - generic:
+              - img
+            - generic [ref=e23]: Set status
+        - listitem [ref=e24]
+        - listitem [ref=e25]:
+          - link "Profile" [ref=e26] [cursor=pointer]:
+            - /url: /sumit-5-test
+            - generic:
+              - img
+            - generic [ref=e28]: Profile
+        - listitem [ref=e29]:
+          - link "Repositories" [ref=e30] [cursor=pointer]:
+            - /url: /sumit-5-test?tab=repositories
+            - generic:
+              - img
+            - generic [ref=e32]: Repositories
+        - listitem [ref=e33]:
+          - link "Stars" [ref=e34] [cursor=pointer]:
+            - /url: /sumit-5-test?tab=stars
+            - generic:
+              - img
+            - generic [ref=e36]: Stars
+        - listitem [ref=e37]:
+          - link "Gists" [ref=e38] [cursor=pointer]:
+            - /url: http://gist.github.com/mine
+            - generic:
+              - img
+            - generic [ref=e40]: Gists
+        - listitem [ref=e41]:
+          - link "Organizations" [ref=e42] [cursor=pointer]:
+            - /url: /settings/organizations
+            - generic:
+              - img
+            - generic [ref=e44]: Organizations
+        - listitem [ref=e45]:
+          - link "Enterprises" [ref=e46] [cursor=pointer]:
+            - /url: /settings/enterprises
+            - generic:
+              - img
+            - generic [ref=e48]: Enterprises
+        - listitem [ref=e49]:
+          - link "Sponsors" [ref=e50] [cursor=pointer]:
+            - /url: /sponsors/accounts
+            - generic:
+              - img
+            - generic [ref=e52]: Sponsors
+        - listitem [ref=e53]
+        - listitem [ref=e54]:
+          - link "Settings" [ref=e55] [cursor=pointer]:
+            - /url: /settings/profile
+            - generic:
+              - img
+            - generic [ref=e57]: Settings
+        - listitem [ref=e58]:
+          - link "Copilot settings" [ref=e59] [cursor=pointer]:
+            - /url: /settings/copilot
+            - generic:
+              - img
+            - generic [ref=e61]: Copilot settings
+        - listitem [ref=e62]:
+          - button "Feature preview New" [ref=e63] [cursor=pointer]:
+            - generic:
+              - img
+            - generic [ref=e64]:
+              - generic [ref=e65]: Feature preview
+              - generic:
+                - generic: New
+        - listitem [ref=e66]:
+          - link "Appearance" [ref=e67] [cursor=pointer]:
+            - /url: /settings/appearance
+            - generic:
+              - img
+            - generic [ref=e69]: Appearance
+        - listitem [ref=e70]:
+          - link "Accessibility" [ref=e71] [cursor=pointer]:
+            - /url: /settings/accessibility
+            - generic:
+              - img
+            - generic [ref=e73]: Accessibility
+        - listitem [ref=e74]:
+          - link "Try Enterprise Free" [ref=e75] [cursor=pointer]:
+            - /url: /organizations/enterprise_plan?ref_cta=Start%2520a%2520trial&ref_loc=user_drawer_side_panel&ref_page=Header+Avatar
+            - generic:
+              - img
+            - generic [ref=e76]:
+              - generic [ref=e77]: Try Enterprise
+              - generic:
+                - generic: Free
+        - listitem [ref=e78]
+        - listitem [ref=e79]:
+          - link "Sign out" [ref=e80] [cursor=pointer]:
+            - /url: /logout
+            - generic:
+              - img
+            - generic [ref=e82]: Sign out
+  - generic [ref=e84]:
+    - link "Skip to content" [ref=e85] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global Navigation Menu" [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - button "Open menu" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+          - link "Homepage (g then d)" [ref=e96] [cursor=pointer]:
+            - /url: /
+            - img [ref=e97]
+        - generic [ref=e99]:
+          - navigation "Breadcrumbs" [ref=e100]:
+            - list [ref=e101]:
+              - listitem [ref=e102]:
+                - link "Dashboard" [ref=e103] [cursor=pointer]:
+                  - /url: https://github.com/
+                  - generic [ref=e104]: Dashboard
+          - button "Search or jump to…" [ref=e107] [cursor=pointer]:
+            - generic [ref=e108]:
+              - generic:
+                - img
+              - generic [ref=e109]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+        - generic [ref=e110]:
+          - generic [ref=e111]:
+            - generic [ref=e114]:
+              - link "Chat with Copilot" [ref=e116] [cursor=pointer]:
+                - /url: /copilot
+                - img [ref=e117]
+              - button "Open Copilot…" [ref=e121] [cursor=pointer]:
+                - generic:
+                  - img
+            - button "Create new..." [ref=e123] [cursor=pointer]:
+              - generic [ref=e124]:
+                - generic:
+                  - img
+              - generic:
+                - img
+            - link "Issues (g then i)" [ref=e125] [cursor=pointer]:
+              - /url: /issues
+              - img [ref=e126]
+            - link "Pull requests (g then p)" [ref=e129] [cursor=pointer]:
+              - /url: /pulls
+              - img [ref=e130]
+            - link "Repositories" [ref=e132] [cursor=pointer]:
+              - /url: /repos
+              - img [ref=e133]
+          - link "You have unread notifications (g then n)" [ref=e135] [cursor=pointer]:
+            - /url: /notifications
+            - img [ref=e136]
+          - button "Close user navigation menu" [ref=e139] [cursor=pointer]:
+            - img "sumit tirpude" [ref=e140]
+  - generic [ref=e144]:
+    - complementary "Account" [ref=e145]:
+      - navigation "Repositories" [ref=e152]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - heading "Top repositories" [level=2] [ref=e155]
+            - link "New" [ref=e156] [cursor=pointer]:
+              - /url: /new
+              - generic [ref=e157]:
+                - generic:
+                  - img
+                - generic [ref=e158]: New
+          - search "Top repositories" [ref=e159]:
+            - textbox "Find a repository…" [ref=e160]
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - generic [ref=e163]:
+                - link "Repository" [ref=e164] [cursor=pointer]:
+                  - /url: /sumit-5-test/D-GithubProject
+                  - img "Repository" [ref=e165]
+                - link "sumit-5-test/D-GithubProject" [ref=e167] [cursor=pointer]:
+                  - /url: /sumit-5-test/D-GithubProject
+            - listitem [ref=e168]:
+              - generic [ref=e169]:
+                - link "Repository" [ref=e170] [cursor=pointer]:
+                  - /url: /sumit-5-test/desktop-tutorial
+                  - img "Repository" [ref=e171]
+                - link "sumit-5-test/desktop-tutorial" [ref=e173] [cursor=pointer]:
+                  - /url: /sumit-5-test/desktop-tutorial
+            - listitem [ref=e174]:
+              - generic [ref=e175]:
+                - link "Repository" [ref=e176] [cursor=pointer]:
+                  - /url: /sumit-5-test/skills-build-applications-w-copilot-agent-mode
+                  - img "Repository" [ref=e177]
+                - link "sumit-5-test/skills-build-applications-w-copilot-agent-mode" [ref=e179] [cursor=pointer]:
+                  - /url: /sumit-5-test/skills-build-applications-w-copilot-agent-mode
+            - listitem [ref=e180]:
+              - generic [ref=e181]:
+                - link "Repository" [ref=e182] [cursor=pointer]:
+                  - /url: /sumit-5-test/skills-copilot-spaces
+                  - img "Repository" [ref=e183]
+                - link "sumit-5-test/skills-copilot-spaces" [ref=e185] [cursor=pointer]:
+                  - /url: /sumit-5-test/skills-copilot-spaces
+            - listitem [ref=e186]:
+              - generic [ref=e187]:
+                - link "Repository" [ref=e188] [cursor=pointer]:
+                  - /url: /sumit-5-test/pw-repo-1776791375955
+                  - img "Repository" [ref=e189]
+                - link "sumit-5-test/pw-repo-1776791375955" [ref=e191] [cursor=pointer]:
+                  - /url: /sumit-5-test/pw-repo-1776791375955
+            - listitem [ref=e192]:
+              - generic [ref=e193]:
+                - link "Repository" [ref=e194] [cursor=pointer]:
+                  - /url: /sumit-5-test/pw-repo-1776790571855
+                  - img "Repository" [ref=e195]
+                - link "sumit-5-test/pw-repo-1776790571855" [ref=e197] [cursor=pointer]:
+                  - /url: /sumit-5-test/pw-repo-1776790571855
+            - listitem [ref=e198]:
+              - generic [ref=e199]:
+                - link "Repository" [ref=e200] [cursor=pointer]:
+                  - /url: /sumit-5-test/pw-repo-1776790167311
+                  - img "Repository" [ref=e201]
+                - link "sumit-5-test/pw-repo-1776790167311" [ref=e203] [cursor=pointer]:
+                  - /url: /sumit-5-test/pw-repo-1776790167311
+          - button "Show more" [ref=e205] [cursor=pointer]
+    - generic [ref=e208]:
+      - generic [ref=e209]:
+        - main [ref=e210]:
+          - generic [ref=e212]:
+            - heading "Dashboard" [level=1] [ref=e213]
+            - heading "Home" [level=2] [ref=e215]
+            - generic [ref=e216]:
+              - generic [ref=e220]:
+                - generic [ref=e224]:
+                  - textbox "Ask anything or type @ to add context" [ref=e227]
+                  - generic [ref=e228]:
+                    - button "Ask" [ref=e231] [cursor=pointer]:
+                      - generic [ref=e232]:
+                        - generic:
+                          - img
+                        - generic [ref=e233]: Ask
+                      - generic:
+                        - img
+                    - generic [ref=e234]:
+                      - button "Select repositories to attach to conversation" [ref=e235] [cursor=pointer]:
+                        - generic [ref=e236]:
+                          - generic:
+                            - img
+                          - generic "All repositories" [ref=e238]
+                        - generic:
+                          - img
+                      - button "Add files, and spaces" [ref=e239] [cursor=pointer]:
+                        - img [ref=e240]
+                    - generic [ref=e242]:
+                      - 'button "Model: Claude Haiku 4.5" [ref=e244] [cursor=pointer]':
+                        - generic [ref=e246]:
+                          - generic [ref=e247]: "Model:"
+                          - generic [ref=e248]: Claude Haiku 4.5
+                        - generic:
+                          - img
+                      - button "Send now (enter)" [ref=e250] [cursor=pointer]:
+                        - img [ref=e251]
+                - heading "Chat Commands" [level=2] [ref=e253]
+                - list [ref=e255]:
+                  - listitem [ref=e256]:
+                    - button "Agent" [ref=e257] [cursor=pointer]:
+                      - img [ref=e258]
+                      - generic [ref=e261]: Agent
+                  - listitem [ref=e262]:
+                    - button "Create issue" [ref=e263] [cursor=pointer]:
+                      - img [ref=e264]
+                      - generic [ref=e266]: Create issue
+                  - listitem [ref=e267]:
+                    - button "Write code" [ref=e268] [cursor=pointer]:
+                      - img [ref=e271]
+                      - generic [ref=e273]:
+                        - text: Write code
+                        - img [ref=e275]
+                  - listitem [ref=e277]:
+                    - button "Git" [ref=e278] [cursor=pointer]:
+                      - img [ref=e281]
+                      - generic [ref=e283]:
+                        - text: Git
+                        - img [ref=e285]
+                  - listitem [ref=e287]:
+                    - button "Pull requests" [ref=e288] [cursor=pointer]:
+                      - img [ref=e291]
+                      - generic [ref=e293]:
+                        - text: Pull requests
+                        - img [ref=e295]
+              - generic [ref=e297]:
+                - generic [ref=e298]:
+                  - heading "Feed" [level=2] [ref=e299]
+                  - group [ref=e302]:
+                    - button "Filter" [ref=e303] [cursor=pointer]:
+                      - img [ref=e304]
+                      - text: Filter
+                - article [ref=e309]:
+                  - generic [ref=e311]:
+                    - generic [ref=e313]:
+                      - img [ref=e315]
+                      - heading "Trending repositories" [level=3] [ref=e317]
+                      - generic [ref=e318]: ·
+                      - link "See more" [ref=e319] [cursor=pointer]:
+                        - /url: https://github.com/trending
+                    - generic [ref=e320]:
+                      - region "repository body 0-0" [ref=e323]:
+                        - generic [ref=e324]:
+                          - generic [ref=e325]:
+                            - generic [ref=e326]:
+                              - link "@kyegomez profile" [ref=e327] [cursor=pointer]:
+                                - /url: /kyegomez
+                                - img "@kyegomez profile" [ref=e328]
+                              - link "kyegomez/OpenMythos" [ref=e329] [cursor=pointer]:
+                                - /url: /kyegomez/OpenMythos
+                            - generic [ref=e330]:
+                              - generic [ref=e331]: A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.
+                              - region "Repo Details 0-0" [ref=e333]:
+                                - generic [ref=e335]: Python
+                                - link "7282 stargazers" [ref=e337] [cursor=pointer]:
+                                  - /url: /kyegomez/OpenMythos/stargazers
+                                  - img [ref=e338]
+                                  - text: 7.3k
+                          - generic [ref=e342]:
+                            - button "Star this repository" [ref=e344] [cursor=pointer]:
+                              - img [ref=e345]
+                              - text: Star
+                            - button "Add this repository to a list" [ref=e350] [cursor=pointer]:
+                              - img
+                      - article [ref=e352]:
+                        - generic [ref=e354]:
+                          - separator [ref=e355]
+                          - region "repository body 0-1" [ref=e359]:
+                            - generic [ref=e360]:
+                              - generic [ref=e361]:
+                                - generic [ref=e362]:
+                                  - link "@elder-plinius profile" [ref=e363] [cursor=pointer]:
+                                    - /url: /elder-plinius
+                                    - img "@elder-plinius profile" [ref=e364]
+                                  - link "elder-plinius/CL4R1T4S" [ref=e365] [cursor=pointer]:
+                                    - /url: /elder-plinius/CL4R1T4S
+                                - generic [ref=e366]:
+                                  - generic [ref=e367]: LEAKED SYSTEM PROMPTS FOR CHATGPT, GEMINI, GROK, CLAUDE, PERPLEXITY, CURSOR, DEVIN, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐
+                                  - region "Repo Details 0-1" [ref=e369]:
+                                    - link "21981 stargazers" [ref=e370] [cursor=pointer]:
+                                      - /url: /elder-plinius/CL4R1T4S/stargazers
+                                      - img [ref=e371]
+                                      - text: 22k
+                              - generic [ref=e375]:
+                                - button "Star this repository" [ref=e377] [cursor=pointer]:
+                                  - img [ref=e378]
+                                  - text: Star
+                                - button "Add this repository to a list" [ref=e383] [cursor=pointer]:
+                                  - img
+        - contentinfo [ref=e384]:
+          - heading "Footer" [level=2] [ref=e385]
+          - generic [ref=e386]:
+            - generic [ref=e387]:
+              - link "GitHub Homepage" [ref=e388] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e389]
+              - generic [ref=e391]: © 2026 GitHub, Inc.
+            - navigation "Footer" [ref=e392]:
+              - heading "Footer navigation" [level=3] [ref=e393]
+              - list "Footer navigation" [ref=e394]:
+                - listitem [ref=e395]:
+                  - link "Terms" [ref=e396] [cursor=pointer]:
+                    - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+                - listitem [ref=e397]:
+                  - link "Privacy" [ref=e398] [cursor=pointer]:
+                    - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+                - listitem [ref=e399]:
+                  - link "Security" [ref=e400] [cursor=pointer]:
+                    - /url: https://github.com/security
+                - listitem [ref=e401]:
+                  - link "Status" [ref=e402] [cursor=pointer]:
+                    - /url: https://www.githubstatus.com/
+                - listitem [ref=e403]:
+                  - link "Community" [ref=e404] [cursor=pointer]:
+                    - /url: https://github.community/
+                - listitem [ref=e405]:
+                  - link "Docs" [ref=e406] [cursor=pointer]:
+                    - /url: https://docs.github.com/
+                - listitem [ref=e407]:
+                  - link "Contact" [ref=e408] [cursor=pointer]:
+                    - /url: https://support.github.com?tags=dotcom-footer
+                - listitem [ref=e409]:
+                  - button "Manage cookies" [ref=e411] [cursor=pointer]
+                - listitem [ref=e412]:
+                  - button "Do not share my personal information" [ref=e414] [cursor=pointer]
+      - complementary "Explore" [ref=e415]:
+        - generic [ref=e416]:
+          - heading "Latest from our changelog" [level=2] [ref=e417]
+          - list [ref=e418]:
+            - listitem [ref=e419]:
+              - img [ref=e421]
+              - generic [ref=e423]:
+                - generic [ref=e424]: Apr 21, 202611 hours ago
+                - link "CodeQL now supports sanitizers and validators in models-as-data" [ref=e425] [cursor=pointer]:
+                  - /url: https://github.blog/changelog/2026-04-21-codeql-now-supports-sanitizers-and-validators-in-models-as-data
+            - listitem [ref=e426]:
+              - img [ref=e428]
+              - generic [ref=e430]:
+                - generic [ref=e431]: Apr 20, 2026yesterday
+                - link "Changes to GitHub Copilot plans for individuals" [ref=e432] [cursor=pointer]:
+                  - /url: https://github.blog/changelog/2026-04-20-changes-to-github-copilot-plans-for-individuals
+            - listitem [ref=e433]:
+              - img [ref=e435]
+              - generic [ref=e437]:
+                - generic [ref=e438]: Apr 20, 20262 days ago
+                - link "Sunsetting SHA-1 in HTTPS on GitHub" [ref=e439] [cursor=pointer]:
+                  - /url: https://github.blog/changelog/2026-04-20-sunsetting-sha-1-in-https-on-github
+            - listitem [ref=e440]:
+              - img [ref=e442]
+              - generic [ref=e444]:
+                - generic [ref=e445]: Apr 18, 20264 days ago
+                - link "GitHub Copilot CLI now supports Copilot auto model selection" [ref=e446] [cursor=pointer]:
+                  - /url: https://github.blog/changelog/2026-04-17-github-copilot-cli-now-supports-copilot-auto-model-selection
+          - link "View changelog →" [ref=e448] [cursor=pointer]:
+            - /url: https://github.blog/changelog
+```

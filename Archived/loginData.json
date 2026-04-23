@@ -1,0 +1,29 @@
+[
+  {
+    "description": "wrong username wrong password",
+    "username": "fakeuser123",
+    "password": "somepassword"
+  },
+  {
+    "description": "wrong password",
+    "username": "realusername",
+    "password": "wrongpass"
+  },
+ 
+  {
+    "description": "Valid username format but wrong password",
+    "username": "sumit-5-test",
+    "password": "Sumit@0511"
+  },
+  {
+    "description": "inValid username and password",
+    "username": "sumit-5-qa",
+    "password": "process.env.GITHUB_PASS"
+  },
+  {
+    "description": "Valid username and password",
+    "username": "sumit-5-test",
+    "password": "Sumit@0511"
+  }
+
+]
