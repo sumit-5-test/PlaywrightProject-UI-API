@@ -1,2 +1,0 @@
-Encrypted: U2FsdGVkX1/foh+kOJ6avJH7ijTqheIeqbWzaZ8EPbM=
-Decrypted: sumit-5-test

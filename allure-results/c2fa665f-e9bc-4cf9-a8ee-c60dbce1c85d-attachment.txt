@@ -1,2 +1,0 @@
-Encrypted: U2FsdGVkX191DB4MKBEm3aWBPmRaD9LHifpeTfjnax4=
-Decrypted: zenasar_05
